@@ -2,6 +2,23 @@
     margin: 0;
     padding: 0;
 }
+A {
+    /* Цвет ссылок */
+    text-decoration: none;
+    color: black;
+}
+
+A:visited {
+    /* Цвет посещенных ссылок */
+    text-decoration: none;
+    color: black;
+}
+
+A:active {
+    /* Цвет активных ссылок */
+    text-decoration: none;
+    color: none;
+}
 html {
      overflow-x:  hidden; }
 header{
