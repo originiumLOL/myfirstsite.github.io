@@ -5,4 +5,4 @@ Allow: /
 Allow: /css/img/
 Sitemap: https://originiumlol.github.io/5259533_7.xml
 Sitemap: https://originiumlol.github.io/sitemap.xml
-Hosts: https://originiumlol.github.io/index.html
+Host: https://originiumlol.github.io/index.html
