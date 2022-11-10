@@ -3,5 +3,5 @@
 User-agent: *
 Allow: /
 Allow: /css/img/
-Sitemap:
+Sitemap: https://originiumlol.github.io/5259533_7.xml
 Sitemap:
