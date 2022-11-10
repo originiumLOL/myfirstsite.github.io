@@ -284,3 +284,9 @@ header{
     font-weight: bold;
     color: #F2453E;
  }
+.sus{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
