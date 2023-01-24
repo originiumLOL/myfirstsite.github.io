@@ -1,179 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-    <title>HuperPoP</title>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "",
-      "image": [
-        "https://example.com/photos/1x1/photo.jpg",
-        "https://example.com/photos/4x3/photo.jpg",
-        "https://example.com/photos/16x9/photo.jpg"
-       ],
-      "name": "Dave's Steak House",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "148 W 51st St",
-        "addressLocality": "New York",
-        "addressRegion": "NY",
-        "postalCode": "10019",
-        "addressCountry": "US"
-      },
-      "review": {
-        "@type": "Review",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "4",
-          "bestRating": "5"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "Lillian Ruiz"
-        }
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 40.761293,
-        "longitude": -73.982294
-      },
-      "url": "http://www.example.com/restaurant-locations/manhattan",
-      "telephone": "+12122459600",
-      "servesCuisine": "American",
-      "priceRange": "$$$",
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday"
-          ],
-          "opens": "11:30",
-          "closes": "22:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Wednesday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "11:30",
-          "closes": "23:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Saturday",
-          "opens": "16:00",
-          "closes": "23:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "16:00",
-          "closes": "22:00"
-        }
-      ],
-      "menu": "http://www.example.com/menu",
-      "acceptsReservations": "True"
-    }
-    </script>
-  
-  <div itemscope itemtype="https://originiumlol.github.io/menu/ironpc.html">
-  <img itemprop="logo" src="../css/img/logo.png" alt="logo" />
-  <span itemprop="description">Здесь можно купиь круые детали.</span>
-  <img itemprop="photo" src="../css/img/baner.png" alt="Front view of the hotel" />
-</div>
-  <div itemscope itemtype="https://schema.org/Product">
-  <img itemprop="image" src="dell-30in-lcd.jpg" alt="A Dell UltraSharp monitor"/>
-  <span itemprop="name">HyperPoP"</span>
+<div itemscope itemtype="https://schema.org/Organization">
+  <span itemprop="name">Google.org (GOOG)</span>
 
-  <div itemprop="aggregateRating"
-    itemscope itemtype="https://schema.org/AggregateRating">
-    <span itemprop="ratingValue">87</span>
-    out of <span itemprop="bestRating">100</span>
-    based on <span itemprop="ratingCount">24</span> user ratings
-  </div>
-
-  <div itemprop="offers" itemscope itemtype="https://schema.org/AggregateOffer">
-    <span itemprop="lowPrice">300 Руб.</span>
-    to <span itemprop="highPrice">1500 руб.</span>
-    from <span itemprop="offerCount">8</span> sellers
-
-    Sellers:
-    <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-        <a itemprop="url" href="save-a-lot-monitors.com/dell-30.html">
-        Save A Lot Monitors - 20000 руб.</a>
-    </div>
-    <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-        <a itemprop="url" href="jondoe-gadgets.com/dell-30.html">
-        Jon Doe's Gadgets -23000 руб.</a>
-    </div>
-  </div>
-  ...
-</div>
-  <div itemscope itemtype="https://schema.org/Person">
-  <span itemprop="name">Jane Doe</span>
-  <img src="janedoe.jpg" itemprop="image" alt="Photo of Jane Doe"/>
-
-  <span itemprop="jobTitle">Professor</span>
+Contact Details:
   <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-    <span itemprop="streetAddress">
-      Улица маршала 33
-    </span>
-    <span itemprop="addressLocality">Seattle</span>,
-    <span itemprop="addressRegion">RU</span>
-    <span itemprop="postalCode">356423</span>
+    Main address:
+      <span itemprop="streetAddress">38 avenue de l'Opera</span>
+      <span itemprop="postalCode">F-75002</span>
+      <span itemprop="addressLocality">Paris, France</span>
+    ,
   </div>
-  <span itemprop="telephone">+79513056545</span>
-  <a href="mailto:jane-doe@xyz.edu" itemprop="email">
-    originium@mail.ru</a>
-  <a href="http://www.janedoe.com" itemprop="url">janedoe.com</a>
-  <a href="http://www.xyz.edu/students/alicejones.html" itemprop="colleague"></a>
-  <a href="http://www.xyz.edu/students/bobsmith.html" itemprop="colleague"></a>
-   <div itemscope itemtype="https://schema.org/Person">
-  <span itemprop="name">Originium</span>
-  <img src="janedoe.jpg" itemprop="image" alt="Photo of Jane Doe"/>
+    Tel:<span itemprop="telephone">( 33 1) 42 68 53 00 </span>,
+    Fax:<span itemprop="faxNumber">( 33 1) 42 68 53 01 </span>,
+    E-mail: <span itemprop="email">secretariat(at)google.org</span>
 
-  <span itemprop="jobTitle">WEB</span>
-  <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-    <span itemprop="streetAddress">
-      Макарова 33
-    </span>
-    <span itemprop="addressLocality">Seattle</span>,
-    <span itemprop="addressRegion">RU</span>
-    <span itemprop="postalCode">98052</span>
-  </div>
-  <span itemprop="telephone">(425) 123-4567</span>
-  <a href="mailto:jane-doe@xyz.edu" itemprop="email">
-    pavlov@mail.ru</a>
-  <a href="http://www.janedoe.com" itemprop="url">janedoe.com</a>
-  <a href="http://www.xyz.edu/students/alicejones.html" itemprop="colleague"></a>
-  <a href="http://www.xyz.edu/students/bobsmith.html" itemprop="colleague"></a>
-</div>
-   <div itemscope itemtype="https://schema.org/Person">
-  <img src="janedoe.jpg" itemprop="image" alt="Photo of Jane Doe"/>
+Members:
+- National Scientific Members in 100 countries and territories: Country1, Country2, ...
+- Scientific Union Members, 30 organizations listed in this Yearbook:
+List of Alumni:
+ <span itemprop="alumni" itemscope itemtype="https://schema.org/Person">
+   <span itemprop="name">Jack Dan</span>
+ </span>,
+ <span itemprop="alumni" itemscope itemtype="https://schema.org/Person">
+   <span itemprop="name">John Smith</span>
+ </span>,
 
-  <span itemprop="jobTitle">Professor</span>
-  <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-    <span itemprop="streetAddress">
-      20341 Whitworth Institute
-      405 N. Whitworth
-    </span>
-    <span itemprop="addressLocality">Miass</span>,
-    <span itemprop="addressRegion">RU</span>
-    <span itemprop="postalCode">912381</span>
-  </div>
-  <span itemprop="telephone">(425) +7123321456</span>
-  <a href="mailto:jane-doe@xyz.edu" itemprop="email"></a>
+History:
 </div>
-   <a href="nba-miami-philidelphia-game3.html">
-</a>
-<a href="wells-fargo-center.html">
-</a>
-   <span itemprop="department">Челябинская область</span>
-</div>
-  <span itemprop="name">HyperPoP</span>
   </head>
 <body>
 
