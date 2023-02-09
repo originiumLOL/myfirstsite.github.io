@@ -370,13 +370,6 @@ a[data-fancybox] img {
   justify-content: center;
   min-height: 100vh;
   align-items: center;
-  background-color: #091921;
-}
-.heading {
-  color: #fff;
-  text-align: center;
-  font-size: 2em;
-  margin: 2em 0;
 }
 .images {
   display: grid;
