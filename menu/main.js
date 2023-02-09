@@ -1,20 +1,17 @@
-// Get the modal
-var modal = document.querySelectorAll("myModal");
+const images = document.querySelectorAll(".images img");
+const modal = document.querySelector(".modal");
+const modalImg = document.querySelector(".modalImg");
+const modalTxt = document.querySelector(".modalTxt");
+const close = document.querySelector(".close");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.querySelectorAll("myImg");
-var modalImg = document.querySelectorAll("img01");
-var captionText = document.querySelectorAll("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
+images.forEach((image) => {
+  image.addEventListener("click", () => {
+    modalImg.src = image.src;
+    modalTxt.innerHTML = image.alt;
+    modal.classList.add("appear");
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
+    close.addEventListener("click", () => {
+      modal.classList.remove("appear");
+    });
+  });
+});
