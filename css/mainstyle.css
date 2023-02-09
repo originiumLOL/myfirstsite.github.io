@@ -357,7 +357,7 @@ a[data-fancybox] img {
 .is-nav-selected .fancybox__thumb::after {
   display: none;
 }
-myImg {
+.myImg {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
@@ -389,7 +389,7 @@ myImg {
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
-caption {
+.caption {
   margin: auto;
   display: block;
   width: 80%;
